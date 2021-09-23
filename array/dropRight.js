@@ -8,6 +8,15 @@ const dropRight = (array, n = 1) => {
   });
 
   return newArr;
+  //   let newArr = [];
+  // //   let arrayReverded = array.reverse();
+  // array.forEach((e, index) => {
+  //   if (index <= array.length - (n + 1)) {
+  //     newArr.push(e);
+  //   }
+  // });
+
+  // return newArr;
 };
 
 console.log(dropRight([1, 2, 3]));
